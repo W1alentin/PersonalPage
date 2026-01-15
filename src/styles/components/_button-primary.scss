@@ -1,0 +1,36 @@
+.btn-primary {
+  padding-inline: 1.25rem;
+  background-color: transparent;
+  color: var(--clr-txt-accent);
+  border: var(--brd-md) solid var(--clr-brd-accent);
+  border-radius: var(--brd-rd-lg);
+  font-weight: var(--fw-bold);
+  font-size: 1.5rem;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--clr-bg-accent);
+    color: var(--clr-txt-tretiary);
+  }
+
+  &:focus-visible {
+    border: var(--brd-md) solid var(--clr-brd-tretiary);
+    outline: none;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  & a {
+    color: inherit;
+  }
+
+  & a:focus,
+  a:focus-visible {
+    outline: none;
+    box-shadow: none;
+    border: none;
+  }
+}
