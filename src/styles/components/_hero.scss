@@ -1,0 +1,15 @@
+.hero-title {
+  color: var(--clr-txt-primary);
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: var(--fw-extra-bold);
+  font-size: 3.375rem;
+}
+//отступы настроить между блокаммим
+.hero-subtitle {
+  color: var(--clr-txt-secondary);
+  text-align: center;
+  font-weight: var(--fw-medium);
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
