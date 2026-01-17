@@ -1,4 +1,9 @@
-.hero-title {
+#about {
+  background-color: var(--clr-bg-secondary);
+  padding: 1px;
+}
+
+.about-title {
   margin-top: var(--ind-lr);
   color: var(--clr-txt-primary);
   text-transform: uppercase;
@@ -8,7 +13,7 @@
   line-height: 1.2;
 }
 
-.hero-subtitle {
+.about-subtitle {
   max-width: 56.25rem;
   padding: var(--ind-sm);
   margin: 0 auto;
@@ -19,6 +24,6 @@
   line-height: 1.2;
 }
 
-.hero-img {
+.about-img {
   margin: 0 auto;
 }
