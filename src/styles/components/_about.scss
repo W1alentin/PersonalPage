@@ -1,6 +1,7 @@
 #about {
   background-color: var(--clr-bg-secondary);
   padding: 1px;
+  position: relative;
 }
 
 .about-title {
@@ -15,7 +16,8 @@
 
 .about-subtitle {
   max-width: 56.25rem;
-  padding: var(--ind-sm);
+  padding-top: var(--ind-sm);
+  padding-bottom: var(--ind-xl);
   margin: 0 auto;
   color: var(--clr-txt-secondary);
   text-align: center;
@@ -25,5 +27,11 @@
 }
 
 .about-img {
-  margin: 0 auto;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translateX(-50%);
+  aspect-ratio: 3 / 4;
+  width: 21.875rem;
+  border: var(--brd-md) solid var(--clr-brd-primary);
 }
