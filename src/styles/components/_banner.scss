@@ -1,9 +1,9 @@
-.about-info {
-  padding: 1px;
+.banner {
   background-color: var(--clr-bg-secondary);
+  padding: 1px;
 }
 
-.about-title {
+.banner-title {
   margin-top: var(--ind-lr);
   color: var(--clr-txt-primary);
   text-transform: uppercase;
@@ -13,22 +13,13 @@
   line-height: 1.2;
 }
 
-.about-subtitle {
+.banner-subtitle {
   max-width: 56.25rem;
-  padding-top: var(--ind-sm);
-  padding-bottom: var(--ind-xl);
+  padding: var(--ind-sm);
   margin: 0 auto;
   color: var(--clr-txt-secondary);
   text-align: center;
   font-weight: var(--fw-medium);
   font-size: 1.5rem;
   line-height: 1.2;
-}
-
-.about-img {
-  margin: 0 auto;
-  margin-top: -3.125rem;
-  aspect-ratio: 3 / 4;
-  width: 21.875rem;
-  border: var(--brd-md) solid var(--clr-brd-primary);
 }
