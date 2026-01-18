@@ -1,4 +1,9 @@
-.hero-title {
+.banner {
+  background-color: var(--clr-bg-secondary);
+  padding: 1px;
+}
+
+.banner-title {
   margin-top: var(--ind-lr);
   color: var(--clr-txt-primary);
   text-transform: uppercase;
@@ -8,7 +13,7 @@
   line-height: 1.2;
 }
 
-.hero-subtitle {
+.banner-subtitle {
   max-width: 56.25rem;
   padding: var(--ind-sm);
   margin: 0 auto;
@@ -17,8 +22,4 @@
   font-weight: var(--fw-medium);
   font-size: 1.5rem;
   line-height: 1.2;
-}
-
-.hero-img {
-  margin: 0 auto;
 }

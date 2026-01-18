@@ -1,0 +1,31 @@
+.projects-title {
+  margin-top: var(--ind-xl);
+  margin-bottom: var(--ind-md);
+  color: var(--clr-txt-primary);
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: var(--fw-extra-bold);
+  font-size: 3.375rem;
+  line-height: 1.2;
+}
+
+.projects-wrapper {
+  padding-bottom: 4rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.projects-img-wrap {
+  border: var(--brd-lg) solid var(--clr-brd-secondary);
+  border-radius: var(--brd-rd-md);
+  // скрыть края фоток, которые вылазят
+  overflow: hidden;
+}
+
+.btn-wrapper {
+  padding-bottom: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
