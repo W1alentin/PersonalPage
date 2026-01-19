@@ -16,13 +16,6 @@
   gap: 12px;
 }
 
-.projects-img-wrap {
-  border: var(--brd-lg) solid var(--clr-brd-secondary);
-  border-radius: var(--brd-rd-md);
-  // скрыть края фоток, которые вылазят
-  overflow: hidden;
-}
-
 .btn-wrapper {
   padding-bottom: 4rem;
   display: flex;
