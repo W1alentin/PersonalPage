@@ -26,18 +26,19 @@
   gap: 8px;
   width: 100%;
 
-  & input {
+  & .feedback-form-item-field {
     border: var(--brd-sm) solid var(--clr-brd-accent);
     border-radius: var(--brd-rd-md);
     height: 3.125rem;
   }
 
-  & input:active {
+  & .feedback-form-item-field:active {
     border: var(--brd-sm) solid var(--clr-brd-primary);
     outline: none;
   }
 
   & #message {
     height: 10.5rem;
+    resize: none;
   }
 }
