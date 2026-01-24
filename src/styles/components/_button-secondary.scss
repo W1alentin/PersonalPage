@@ -1,0 +1,37 @@
+.btn-secondary {
+  padding: 1rem 1.5rem;
+  background-color: transparent;
+  white-space: nowrap;
+  color: var(--clr-txt-tretiary);
+  border: var(--brd-md) solid var(--clr-bg-primary);
+  border-radius: var(--brd-rd-lg);
+  font-weight: var(--fw-bold);
+  font-size: 1.25rem;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--clr-bg-primary);
+    color: var(--clr-txt-primary);
+  }
+
+  &:focus-visible {
+    border: var(--brd-md) solid var(--clr-brd-tretiary);
+    outline: none;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  & a {
+    color: inherit;
+  }
+
+  & a:focus,
+  a:focus-visible {
+    outline: none;
+    box-shadow: none;
+    border: none;
+  }
+}
