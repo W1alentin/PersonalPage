@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.feedback-form {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-block: var(--ind-lr);
+  min-width: 18.75rem;
+  font-size: 1.25rem;
+  font-weight: var(--fw-medium);
+  color: var(--clr-txt-primary);
+
+  & .btn-primary {
+    max-width: 200px;
+    align-self: flex-end;
+  }
+}
+
+.feedback-form-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+
+  & .feedback-form-item-field {
+    border: var(--brd-sm) solid var(--clr-brd-accent);
+    border-radius: var(--brd-rd-md);
+    height: 3.125rem;
+  }
+
+  & .feedback-form-item-field:active {
+    border: var(--brd-sm) solid var(--clr-brd-primary);
+    outline: none;
+  }
+
+  & #message {
+    height: 10.5rem;
+    resize: none;
+  }
+}

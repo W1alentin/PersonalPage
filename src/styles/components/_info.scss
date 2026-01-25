@@ -1,0 +1,23 @@
+.info .container {
+  align-items: center;
+  margin-inline: 5.5rem;
+  padding: 1.5rem;
+  border-radius: var(--brd-rd-md);
+  background-color: var(--clr-bg-tretiary);
+  color: var(--clr-txt-tretiary);
+}
+
+.info-title {
+  text-align: center;
+  font-weight: var(--fw-bold);
+  font-size: 1.875rem;
+  line-height: 1.2;
+}
+
+.info-subtitle {
+  max-width: 31.25rem;
+  text-align: center;
+  font-weight: var(--fw-bold);
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
