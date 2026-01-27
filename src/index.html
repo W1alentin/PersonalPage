@@ -3,7 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <meta property="og:locale" content="ru_RU" />
+    <meta property="og:type" content="website" />
+    <title>Портфолио</title>
+    <meta property="og:title" content="Портфолио" />
+    <meta property="description" content="Портфолио разработчика" />
+    <meta property="og:description" content="Портфолио разработчика" />
+    <meta
+      name="keywords"
+      content="веб-разработка, разработчик, сайты, веб-дизайнер"
+    />
+    <meta property="og:url" content="https://siteName" />
+    <link rel="canonical" href="https://siteName" />
     <link rel="stylesheet" href="./styles/main.scss" />
   </head>
   <body>
@@ -37,19 +48,19 @@
           <p class="hero-subtitle">
             Lorem ipsum dolor sit amet consectetur adipisicing elit
           </p>
-          <div class="hero-img-wrapper">
+          <figure class="hero-img-wrapper">
             <img
               class="hero-img"
               src="./img/heroSection.webp"
               srcset="./img/heroSection.webp, ./img/heroSection.png"
               alt="Монитор с открытым редактором кода"
             />
-          </div>
+          </figure>
         </div>
       </section>
       <section id="about">
-          <div class="about-info">
-            <div class="wrapper">
+        <div class="about-info">
+          <div class="wrapper">
             <h1 class="about-title">Привет, я разработчик</h1>
             <p class="about-subtitle">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. A
@@ -57,137 +68,201 @@
               aut vitae quae fugiat error animi voluptatum sint, enim mollitia
               natus! Vitae?
             </p>
-            </div>
           </div>
         </div>
-          <div class="img-about-wrapper">
-            <img
-              class="about-img"
-              src="./img/котCамурай.webp"
-              srcset="./img/котCамурай.webp, ./img/котCамурай.jpg"
-              alt="Фотография разработчика"
-            />
-        </div>
+        <figure class="img-about-wrapper">
+          <img
+            class="about-img"
+            src="./img/котCамурай.webp"
+            srcset="./img/котCамурай.webp, ./img/котCамурай.jpg"
+            alt="Фотография разработчика"
+          />
+        </figure>
       </section>
       <section id="skills">
         <div class="wrapper">
-        <h1 class="skills-title">Навыки и стек технологий</h1>
-        <div class="skills-wrapper">
-          <div class="skills-item">
-            <div class="skills-img-wrapper">
-              <img src="./icons/Development.svg" alt="Изображение символов для работы с кодом">
+          <h1 class="skills-title">Навыки и стек технологий</h1>
+          <div class="skills-wrapper">
+            <div class="skills-item">
+              <figure class="skills-img-wrapper">
+                <img
+                  src="./icons/Development.svg"
+                  alt="Изображение символов для работы с кодом"
+                />
+              </figure>
+              <h4 class="skills-item-header">Разработка</h4>
+              <p class="skills-item-description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <h5 class="skills-item-subheader">Инструменты</h5>
+              <ul class="skills-items-list">
+                <li>Git</li>
+                <li>VS Code</li>
+                <li>DevTools</li>
+              </ul>
             </div>
-            <h4 class="skills-item-header">Разработка</h4>
-            <p class="skills-item-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <h5 class="skills-item-subheader">
-              Инструменты
-            </h5>
-            <ul class="skills-items-list">
-              <li>Git</li>
-              <li>VS Code</li>
-              <li>DevTools</li>
-            </ul>
-          </div>
-          <div class="skills-item">
-            <div class="skills-img-wrapper">
-              <img src="./icons/Design.svg" alt="Изображение монитора со стилусом">
+            <div class="skills-item">
+              <figure class="skills-img-wrapper">
+                <img
+                  src="./icons/Design.svg"
+                  alt="Изображение монитора со стилусом"
+                />
+              </figure>
+              <h4 class="skills-item-header">Дизайн</h4>
+              <p class="skills-item-description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <h5 class="skills-item-subheader">Инструменты</h5>
+              <ul class="skills-items-list">
+                <li>Figma</li>
+                <li>Affter Effects</li>
+                <li>Blender</li>
+              </ul>
             </div>
-            <h4 class="skills-item-header">Дизайн</h4>
-            <p class="skills-item-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <h5 class="skills-item-subheader">
-              Инструменты
-            </h5>
-            <ul class="skills-items-list">
-              <li>Figma</li>
-              <li>Affter Effects</li>
-              <li>Blender</li>
-            </ul>
-          </div>
-          <div class="skills-item">
-            <div class="skills-img-wrapper">
-              <img src="./icons/SoftSkills.svg" alt="Изображение баблов сообщений из мессенджеров">
+            <div class="skills-item">
+              <figure class="skills-img-wrapper">
+                <img
+                  src="./icons/SoftSkills.svg"
+                  alt="Изображение баблов сообщений из мессенджеров"
+                />
+              </figure>
+              <h4 class="skills-item-header">Мягкие навыки</h4>
+              <p class="skills-item-description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <h5 class="skills-item-subheader">Инструменты</h5>
+              <ul class="skills-items-list">
+                <li>Работаю</li>
+                <li>Сплю</li>
+                <li>Ем</li>
+              </ul>
             </div>
-            <h4 class="skills-item-header">Мягкие навыки</h4>
-            <p class="skills-item-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <h5 class="skills-item-subheader">
-              Инструменты
-            </h5>
-            <ul class="skills-items-list">
-              <li>Работаю</li>
-              <li>Сплю</li>
-              <li>Ем</li>
-            </ul>
           </div>
-        
-        </div>
         </div>
       </section>
       <section id="projects">
         <div class="wrapper">
-          <h1 class="projects-title">
-            Проекты
-          </h1>
+          <h1 class="projects-title">Проекты</h1>
           <div class="projects-wrapper">
             <div class="projects-item">
-              <div class="projects-img-wrap">
-                <a href="https://github.com/W1alentin" target="_blank" rel="noopener noreferrer"><img src="./img/cat1.jpg" alt="Кот рисованный с самурайским мечом"></a>
-              </div>
+              <figure class="projects-img-wrap">
+                <a
+                  href="https://github.com/W1alentin"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="./img/cat1.jpg"
+                    alt="Кот рисованный с самурайским мечом"
+                  />
+                </a>
+              </figure>
             </div>
             <div class="projects-item">
-              <div class="projects-img-wrap">
-                <a href="https://github.com/W1alentin" target="_blank" rel="noopener noreferrer"><img src="./img/cat2.jpg" alt="Кот рисованный с джежайским мечом"></a>
-              </div>
+              <figure class="projects-img-wrap">
+                <a
+                  href="https://github.com/W1alentin"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img
+                    src="./img/cat2.jpg"
+                    alt="Кот рисованный с джежайским мечом"
+                /></a>
+              </figure>
             </div>
             <div class="projects-item">
-              <div class="projects-img-wrap">
-                <a href="https://github.com/W1alentin" target="_blank" rel="noopener noreferrer"><img src="./img/cat3.jpg" alt="Кот рисованный с заточкой"></a>
-              </div>
+              <figure class="projects-img-wrap">
+                <a
+                  href="https://github.com/W1alentin"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img src="./img/cat3.jpg" alt="Кот рисованный с заточкой"
+                /></a>
+              </figure>
             </div>
             <div class="projects-item">
-              <div class="projects-img-wrap">
-                <a href="https://github.com/W1alentin" target="_blank" rel="noopener noreferrer"><img src="./img/cat4.jpg" alt="Кот рисованный в наушниках"></a>
-              </div>
+              <figure class="projects-img-wrap">
+                <a
+                  href="https://github.com/W1alentin"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img src="./img/cat4.jpg" alt="Кот рисованный в наушниках"
+                /></a>
+              </figure>
             </div>
             <div class="projects-item">
-              <div class="projects-img-wrap">
-                <a href="https://github.com/W1alentin" target="_blank" rel="noopener noreferrer"><img src="./img/cat5.jpg" alt="Кот в мотоцикленом шлеме"></a>
-              </div>
+              <figure class="projects-img-wrap">
+                <a
+                  href="https://github.com/W1alentin"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img src="./img/cat5.jpg" alt="Кот в мотоцикленом шлеме"
+                /></a>
+              </figure>
             </div>
             <div class="projects-item">
-              <div class="projects-img-wrap">
-                <a href="https://github.com/W1alentin" target="_blank" rel="noopener noreferrer"><img src="./img/cat6.jpg" alt="Кот рисованный с джежайским мечом"></a>
-              </div>
+              <figure class="projects-img-wrap">
+                <a
+                  href="https://github.com/W1alentin"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img
+                    src="./img/cat6.jpg"
+                    alt="Кот рисованный с джежайским мечом"
+                /></a>
+              </figure>
             </div>
           </div>
           <div class="btn-wrapper">
             <button class="btn-primary">
-            <a href="https://github.com/W1alentin" target="_blank" rel="noopener noreferrer">Посмотреть на GitHub</a>
-          </button>
+              <a
+                href="https://github.com/W1alentin"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Посмотреть на GitHub</a
+              >
+            </button>
           </div>
         </div>
       </section>
       <section class="banner">
         <h1 class="banner-title">Хотите заказать сайт?</h1>
-        <p class="banner-subtitle">
-            Напишите мне, что бы обсудить детали
-          </p>
+        <p class="banner-subtitle">Напишите мне, что бы обсудить детали</p>
       </section>
       <section id="feedback">
         <div class="wrapper">
           <div class="container">
-            <img src="./img/feedbackSection.webp" srcset="./img/feedbackSection.webp, ./img/feedbackSection.png" alt="Руки на клавиатуре перед монитором">
+            <img
+              src="./img/feedbackSection.webp"
+              srcset="./img/feedbackSection.webp, ./img/feedbackSection.png"
+              alt="Руки на клавиатуре перед монитором"
+            />
             <form class="feedback-form" action="/">
               <label class="feedback-form-item" for="name">
                 Имя
-                <input class="feedback-form-item-field" type="text" name="name" id="name">
+                <input
+                  class="feedback-form-item-field"
+                  type="text"
+                  name="name"
+                  id="name"
+                />
               </label>
               <label class="feedback-form-item" for="email">
                 Электронная почта
-                <input class="feedback-form-item-field" type="text" name="email" id="email">
+                <input
+                  class="feedback-form-item-field"
+                  type="text"
+                  name="email"
+                  id="email"
+                />
               </label>
               <label class="feedback-form-item" for="message">
                 Расскажите про свою задачу
-                <textarea class="feedback-form-item-field" name="message" id="message"></textarea>
+                <textarea
+                  class="feedback-form-item-field"
+                  name="message"
+                  id="message"
+                ></textarea>
               </label>
               <button class="btn-primary">Отправить</button>
             </form>
@@ -196,35 +271,37 @@
       </section>
       <section class="reviews">
         <div class="wrapper">
-          <h1 class="reviews-title">
-            Отзывы
-          </h1>
+          <h1 class="reviews-title">Отзывы</h1>
           <p class="reviews-subtitle">
             Люди с которыми я работал остаются довольны результатом
           </p>
-          <div class="reviews-img-wrapper">
-            <img src="./img/cat1.jpg" alt="Фото человека который оставил отзыв">
-          </div>
-          <p class="reviews-subtitle">
-            "Тест отзыва"
-          </p>
-          <p class="reviews-whois">
-            Имя Фамилия
-          </p>
-          <p class="reviews-whois">
-            Компания, город
-          </p>
+          <figure class="reviews-img-wrapper">
+            <img
+              src="./img/cat1.jpg"
+              alt="Фото человека который оставил отзыв"
+            />
+          </а>
+          <p class="reviews-subtitle">"Тест отзыва"</p>
+          <p class="reviews-whois">Имя Фамилия</p>
+          <p class="reviews-whois">Компания, город</p>
           <div class="reviews-actions">
-            <button class="btn-primary"><img src="./icons/Arrow-L.svg" alt="стрелка налево"></button>
-            <button class="btn-primary"><img src="./icons/Arrow-R.svg" alt="стрелка на право"></button>
+            <button class="btn-primary">
+              <img src="./icons/Arrow-L.svg" alt="стрелка налево" />
+            </button>
+            <button class="btn-primary">
+              <img src="./icons/Arrow-R.svg" alt="стрелка на право" />
+            </button>
           </div>
         </div>
       </section>
       <section class="info">
         <div class="wrapper">
           <div class="container">
-            <h3 class="info-title">Договоримся о соторудничестве</h3>
-            <p class="info-subtitle">У вас есть идея или предлолжение о работе? Напишите мне. Я открыт к разным вариантам сотрудничества</p>
+            <h3 class="info-title">Договоримся о&nbsp;сотрудничестве</h3>
+            <p class="info-subtitle">
+              У вас есть идея или предлолжение о&nbsp;работе? Напишите мне. Я&nbsp;открыт
+              к&nbsp;разным вариантам сотрудничества
+            </p>
             <button class="btn-secondary">Связаться с разработчиком</button>
           </div>
         </div>
@@ -233,9 +310,15 @@
     <footer class="footer">
       <div class="wrapper">
         <div class="footer-social">
-          <a href="#" class="footer-social-action"><img src="./icons/TG.svg" alt="телеграм"></a>
-          <a href="#" class="footer-social-action"><img src="./icons/Habr.svg" alt="хабр"></a>
-          <a href="#" class="footer-social-action"><img src="./icons/Email.svg" alt="почта"></a>
+          <a href="#" class="footer-social-action"
+            ><img src="./icons/TG.svg" alt="телеграм"
+          /></a>
+          <a href="#" class="footer-social-action"
+            ><img src="./icons/Habr.svg" alt="хабр"
+          /></a>
+          <a href="#" class="footer-social-action"
+            ><img src="./icons/Email.svg" alt="почта"
+          /></a>
         </div>
         <div class="footer-resouses">
           <p>Изображения и иконки</p>
