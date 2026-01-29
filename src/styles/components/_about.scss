@@ -25,10 +25,17 @@
   line-height: 1.2;
 }
 
-.about-img {
+.img-about-wrapper {
   margin: 0 auto;
   margin-top: -3.125rem;
+  width: fit-content;
+  border: var(--brd-md) solid var(--clr-brd-primary);
+  border-radius: var(--brd-rd-md);
+  // обрезаю фото
+  overflow: hidden;
+}
+
+.about-img {
   aspect-ratio: 3 / 4;
   width: 21.875rem;
-  border: var(--brd-md) solid var(--clr-brd-primary);
 }
