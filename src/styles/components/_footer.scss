@@ -1,4 +1,6 @@
 .footer {
+  position: relative;
+  z-index: -1;
   margin-top: -50px;
   padding-block: 6.25rem;
   background-color: var(--clr-bg-secondary);
