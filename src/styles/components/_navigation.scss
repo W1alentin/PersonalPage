@@ -1,6 +1,6 @@
 .navigation {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -10,7 +10,6 @@
   justify-content: center;
   align-items: center;
   gap: 5rem;
-  margin-right: auto;
 }
 
 .navigation-link {
@@ -31,4 +30,8 @@
     outline: none;
     margin: -2px;
   }
+}
+
+.nav-burger {
+  cursor: pointer;
 }
